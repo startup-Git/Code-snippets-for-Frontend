@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #04AA6D;
+    --background-color: #333;
+    --hover-color: #000;
+}
+
+/* icon bar */
+
+.icon__bar{
+    width: 100%;
+    background-color: var(--background-color);
+    overflow: auto;
+}
+
+.icon__bar a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 36px;
+    transition: all 0.3s ease;
+    color: var(--primary-color);
+}
+
+.icon__bar a:hover{
+    background-color: var(--hover-color);
+}
+
+.active{
+    background-color: var(--secondary-color);
+}
